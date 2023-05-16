@@ -20,7 +20,7 @@ const Task = ({ taskObj, onComplete }) => {
         <span
           className={`task ${
             kalanGun <= 3 ? "bg-red-200" : ""
-          } py-1 px-2 rounded-sm`}
+          } py-1 px-2 rounded-sm m-2`}
         >
           {remainingDays}
         </span>
